@@ -4,81 +4,83 @@ This project performs an in-depth exploratory data analysis (EDA) on Zomato’s 
 
 📂 Dataset: Zomato Dataset on Kaggle
 
-# 🍽️ Zomato Data Analysis 📊  
+🚀 Steps Followed
+Step 1️⃣: Data Loading & Cleaning
 
-This project performs an in-depth exploratory data analysis (EDA) on Zomato’s restaurant dataset. The goal is to uncover valuable business insights about popular cuisines, rating trends, and cost distributions, and visualize them using graphical plots.
+Imported the dataset and handled missing/null values.
 
----
+Checked datatypes and converted where necessary.
 
-## 📌 Dataset  
+Step 2️⃣: Basic Exploration
 
-📂 **Source:** [Zomato Dataset on Kaggle](https://www.kaggle.com/datasets)  
-*(Due to file size limits, it isn’t included here. Please download and place it in your project folder.)*
+Inspected dataset shape, head, and info.
 
----
+Counted unique values in key columns.
 
-## 🛠️ Basic Working of the Project  
+Step 3️⃣: Preprocessing
 
-The project follows a structured workflow:
+Removed unnecessary columns.
 
-### ✅ 1️⃣ Data Loading & Cleaning  
-- Loaded the dataset using `pandas`.
-- Checked for null values and datatypes.
-- Removed unnecessary columns and standardized categorical entries.
+Cleaned and standardized categorical values.
 
----
+Step 4️⃣: Exploratory Data Analysis (EDA)
 
-### ✅ 2️⃣ Data Exploration  
-- Explored restaurant counts by cuisines.
-- Identified unique values in columns like city, rating, cuisine, and average cost.
+Plotted restaurant count per cuisine.
 
----
+Visualized rating distributions using histograms.
 
-### ✅ 3️⃣ Visualizing Insights  
+Analyzed relationships between ratings, costs, and restaurant locations.
 
-### 📊 **Top 10 Most Popular Cuisines**
+Step 5️⃣: Visualizing Top Cuisines
 
-A horizontal bar chart showing the top 10 most frequently listed cuisines.
+Created a horizontal bar chart for the Top 10 most common cuisines.
 
-![Top Cuisines](images/bar_chart.png)
+Step 6️⃣: Visualizing Ratings
 
----
+Plotted a histogram to observe the distribution of restaurant ratings.
 
-### 📊 **Rating Distribution of Restaurants**
+Step 7️⃣: Saved Visualizations
 
-A histogram visualizing how restaurant ratings are distributed on the platform.
+All graphs are saved under the /images folder for use in this README.
 
-![Rating Distribution](images/histogram.png)
+Step 8️⃣: Uploaded Project to GitHub
 
----
+Uploaded all essential files except the large dataset.
 
-## 📦 Project Structure  
+Shared Kaggle link in the README.
 
-├── images/ # Output images of graphs
-│ ├── bar_chart.png
-│ └── histogram.png
-├── zomato_data_analysis.ipynb # Main Jupyter Notebook with analysis code
-├── requirements.txt # Python library dependencies
-└── README.md # Project documentation (this file)
+Step 9️⃣: Documented Everything
 
-📝 Features
-Perform data cleaning and preprocessing on restaurant data.
+Compiled this README covering project overview, steps, structure, visuals, and how to run it locally.
 
-Explore location-based, rating-based, and cuisine-based trends.
 
-Visualize insights using clean, intuitive charts.
+📊 Visualizing Insights
+📌 1️⃣ Correlation Heatmap
+A heatmap showing correlations between numerical features in the dataset.
 
-Save all generated plots in the /images directory for documentation and presentation.
 
-📚 Requirements
-Python 3.x
+📌 2️⃣ Top 10 Cuisines (Bar Chart)
+A horizontal bar chart displaying the top 10 most popular cuisines.
 
-pandas
 
-numpy
 
-matplotlib
+📌 3️⃣ Cost vs Rating (Boxplot)
+A boxplot comparing the average cost for two to the restaurant ratings.
 
-seaborn
 
-(Install using pip install -r requirements.txt)
+📌 4️⃣ Online Order Distribution (Pie Chart)
+A pie chart visualizing the percentage of restaurants offering online ordering.
+
+
+📌 5️⃣ Rating Distribution
+A histogram representing the distribution of restaurant ratings.
+
+
+📌 6️⃣ Most Common Restaurant Types
+A horizontal bar chart showing the top 10 restaurant types by count.
+
+
+📣 Credits
+Dataset Source: Shruti Mehta - Kaggle
+
+Created by Sahil Srivastava
