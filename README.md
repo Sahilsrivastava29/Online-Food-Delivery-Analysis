@@ -53,14 +53,14 @@ A heatmap showing correlations between numerical features in the dataset.
 
 ---
 
-### 📌 2️⃣ Top 10 Cuisines (Bar Chart)  
+### 📌 2️⃣ Top 10 Cuisines 
 A horizontal bar chart displaying the top 10 most popular cuisines.
 
 ![Correlation Heatmap](images/bar_chart.png)
 
 ---
 
-### 📌 3️⃣ Cost vs Rating (Boxplot)  
+### 📌 3️⃣ Cost vs Rating 
 A boxplot comparing the average cost for two to the restaurant ratings.
 
 ![Correlation Heatmap](images/boxplot.png)
@@ -68,7 +68,7 @@ A boxplot comparing the average cost for two to the restaurant ratings.
 
 ---
 
-### 📌 4️⃣ Online Order Distribution (Pie Chart)  
+### 📌 4️⃣ Online Order Distribution 
 A pie chart visualizing the percentage of restaurants offering online ordering.
 
 ![Correlation Heatmap](images/pie_chart.png)
