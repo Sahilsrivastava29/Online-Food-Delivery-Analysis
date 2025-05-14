@@ -49,7 +49,7 @@ This project performs an **in-depth exploratory data analysis (EDA)** on Zomato�
 ### 📌 1️⃣ Correlation Heatmap  
 A heatmap showing correlations between numerical features in the dataset.
 
-![Correlation Heatmap](Correlation_Heatmap.png)
+![Correlation Heatmap](images/Correlation_Heatmap.png)
 
 ---
 
