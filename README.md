@@ -49,42 +49,46 @@ This project performs an **in-depth exploratory data analysis (EDA)** on Zomato�
 ### 📌 1️⃣ Correlation Heatmap  
 A heatmap showing correlations between numerical features in the dataset.
 
-**📸 [Correlation_Heatmap.png]**
+![Correlation Heatmap](Correlation_Heatmap.png)
 
 ---
 
 ### 📌 2️⃣ Top 10 Cuisines (Bar Chart)  
 A horizontal bar chart displaying the top 10 most popular cuisines.
 
-**📸 [Add image link here]**
+![Correlation Heatmap](images/bar_chart.png)
 
 ---
 
 ### 📌 3️⃣ Cost vs Rating (Boxplot)  
 A boxplot comparing the average cost for two to the restaurant ratings.
 
-**📸 [Add image link here]**
+![Correlation Heatmap](images/boxplot.png)
+
 
 ---
 
 ### 📌 4️⃣ Online Order Distribution (Pie Chart)  
 A pie chart visualizing the percentage of restaurants offering online ordering.
 
-**📸 [Add image link here]**
+![Correlation Heatmap](images/pie_chart.png)
+
 
 ---
 
 ### 📌 5️⃣ Rating Distribution  
 A histogram representing the distribution of restaurant ratings.
 
-**📸 [Add image link here]**
+![Correlation Heatmap](images/rating_distribution.png)
+
 
 ---
 
 ### 📌 6️⃣ Most Common Restaurant Types  
 A horizontal bar chart showing the top 10 restaurant types by count.
 
-**📸 [Add image link here]**
+![Correlation Heatmap](images/restaurant_types.png)
+
 
 ---
 
